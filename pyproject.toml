@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "aiohttp-api-client"
+version = "0.2.0"
+description = "aiohttp based api client"
+authors = ["xppt <21246102+xppt@users.noreply.github.com>"]
+readme = "README.md"
+homepage = "https://github.com/xppt/py-aiohttp-api-client"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+aiohttp = "^3"
+
+[tool.poetry.dev-dependencies]
+asynctest = "^0.13.0"
+
+[tool.isort]
+multi_line_output = 5
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
